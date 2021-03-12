@@ -1,5 +1,7 @@
 # `bat`
 
+![Batman in Plunkett, K., Johnson, D. and Millar, M. (2006) Superman: Red Son. DC Comics.](./img/batmankoff.png)
+
 ```
                                       bat
 NAME
@@ -24,6 +26,10 @@ DESCRIPTION
 ## About
 
 The goal is to replicate the functionality of the [ASUS Battery Health Charging](https://www.asus.com/us/support/FAQ/1032726/) utility for ASUS laptops on Windows which aims prolong the battery's life-span <a href="https://electrek.co/2017/09/01/tesla-battery-expert-recommends-daily-battery-pack-charging/"><sup>1</sup></a> <a href="https://batteryuniversity.com/learn/article/how_to_prolong_lithium_based_batteries"><sup>2</sup></a>.
+
+## Disclaimer
+
+This has only shown to work on ASUS laptops. For Dell systems, see [smbios-utils](https://github.com/dell/libsmbios), particularly the `smbios-battery-ctl` command, or install it using your package manager. For other manufacturers there is also [TLP](https://linrunner.de/tlp/).
 
 ## Installation
 
